@@ -1,0 +1,262 @@
+
+/*************
+presentacion
+**************/
+
+#presentacion{
+
+    width: 100%;
+    overflow-x: hidden;    
+    min-height: 630px;
+    margin-top: 40px;   
+    /*    min-height: 690px;
+        margin-top: 80px;*/
+
+}
+.parallax-window {
+    width: 100%;
+    min-height: 630px;
+    background: transparent;
+    /*background-image: url('../../lib/imagenes/presentacion/bg1.jpg');*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.slide-margin{
+    margin-top: 80px;
+}
+
+.carousel-content {
+    margin-top: 150px;
+}
+
+.h2-slide {
+    color: #fff;
+    text-transform:uppercase;
+    font-size:45px;
+    font-weight:600; 
+}
+
+.p-slide {
+    color: #ddd;
+    font-size:25px;
+}
+
+span {
+    color: #1BBD36;
+}
+
+.btn-slide {
+    padding: 8px 20px;
+    background: #1BBD36;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 25px;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.slider-img{
+    text-align: right;
+    position: absolute;
+}
+
+.slider-img img{
+    max-width: 100%;    
+}
+
+/**** **********
+Feature
+***************/
+.feature {
+    padding:10px;
+}
+
+.text-center i {
+    font-size:40px;
+    margin-top:70px;
+    margin-bottom:30px;
+    color:#fff;
+    padding:50px;
+    background:#1BBD36;
+    border-radius:50%;
+}
+
+.text-center h2 {
+    margin-top:20px;
+    margin-bottom:20px;
+    text-transform:uppercase;
+    font-size:18px;
+    color: #1BBD36;
+}
+
+.hi-icon-effect i.fa:hover {
+    background:#fff;
+    color: #1BBD36;
+    -webkit-transition: color 300ms, background-color 300ms;
+    -moz-transition: color 300ms, background-color 300ms;
+    -o-transition:  color 300ms, background-color 300ms;
+    transition:  color 300ms, background-color 300ms;
+}
+
+.feature .container .text-center p{
+    color:#424242;
+    font-size: 13px;
+}
+
+.feature .container .text-center a{
+    color:#1BBD36;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+
+
+
+/********************* 
+Acerca de
+*********************/
+
+.about {
+    background:#eee;
+    padding:50px;
+}
+
+#contenedorLogo{    
+    margin-top:25px;
+}
+
+#contenedorLogo img{
+
+    border-radius: 5%;
+    margin: 0 auto;
+    max-height: 360px;
+
+}
+
+.about .container h2    {    
+    color: #1BBD36;
+}
+
+.about .container p{
+    text-align: justify;
+    color: #424242;  
+    font-size: 15px;
+
+}
+
+/**********************
+Noticias
+**********************/
+.lates {
+    padding:50px;
+    text-align: justify;
+    color: #424242;  
+    font-size: 15px;
+}
+
+.lates h2 {
+    font-size:20px;
+    font-weight:600;
+    color: #1BBD36;
+}
+
+.lates img {
+    margin-top:30px;
+    border-radius:5px;
+}
+
+/**********************
+Clientes
+**********************/
+
+#partner {
+    color: #fff;
+    text-align: center;
+    padding:80px;   
+    max-height: 200px  !important;
+}
+
+.parallax-window2 {
+    width: 100%;
+    min-height: 430px;
+    background: transparent;
+    /*background-image: url('../../lib/imagenes/presentacion/bg1.jpg');*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#partner h2 {
+    color: #1BBD36;
+    font-size:50px;
+    font-weight:600;
+}
+
+#partner p {
+
+    color: #fff;
+    font-size:15px;
+
+}
+
+.partners ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.partners ul li{
+    display: inline-block;
+    float: left;
+    width: 20%;
+}
+
+.partners ul li a img {
+    margin-top:50px;
+}
+
+/*********************
+CONTACTO
+*********************/
+#conatcat-info{
+    background: #fff url(../../lib/imagenes/varias/contact.png) no-repeat 90% 0;
+    padding: 30px 0;
+}
+
+.contact-info i{
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+    line-height: 60px;
+    color: #fff;
+    background: #000;
+    text-align: center;
+    border-radius: 6px;
+}
+
+.contact-info h2{
+    margin-top: 0;
+    color: #000;
+}
+
+.contact-info{
+    color:#000;
+}
+
+
+.media i {
+    color:#1BBD36;
+    font-size:50px;
+    background-color: #fff;
+}
+
+.contact-info .media-body p{
+    color: #333;
+    font-size: 13px;
+    text-align: justify;
+}
+
